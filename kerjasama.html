@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerjasama</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="kerjasama.html">Kerjasama</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+
+    <main>
+        <section id="offer-form">
+            <h2>Penawaran Kerjasama</h2>
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required>
+
+                <label for="alamat">Alamat:</label>
+                <textarea id="alamat" name="alamat" rows="4" required></textarea>
+
+                <label for="interest">Berminat di:</label>
+                <select id="interest" name="interest" required>
+                    <option value="Web Development">Web Development</option>
+                    <option value="Graphic Design">Graphic Design</option>
+                    <option value="Digital Marketing">Digital Marketing</option>
+                </select>
+
+                <fieldset>
+                    <legend>Availability:</legend>
+                    <label><input type="radio" name="availability" value="full-time"> Full-time</label>
+                    <label><input type="radio" name="availability" value="part-time"> Part-time</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Skills:</legend>
+                    <label><input type="checkbox" name="skills" value="HTML"> HTML</label>
+                    <label><input type="checkbox" name="skills" value="CSS"> CSS</label>
+                    <label><input type="checkbox" name="skills" value="JavaScript"> JavaScript</label>
+                </fieldset>
+
+                <label for="resume">Upload Resume:</label>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+
+                <label for="datetime">Tanggal dan Waktu Pendaftaran</label>
+                <input type="datetime-local" id="datetime" name="datetime" required>
+
+                <div class="button-group">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy 2024 M. Abdul Jalil | NIM: 23.12.2793 | Kelas: SI01</p>
+    </footer>
+</body>
+
+</html>

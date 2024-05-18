@@ -1,0 +1,150 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+.judul {
+    text-align: center;
+    background-color: #555;
+    color: white;
+    padding: 10px;
+}
+.about-content {
+    display: flex;
+    align-items: center; 
+}
+
+.about-text {
+    margin-left: 20px; 
+    flex: 1; 
+}
+
+.about-text p {
+    margin-bottom: 10px; 
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 24px; 
+}
+
+img {
+    width: 220px;
+    height: 220px;
+    border-radius: 10%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc; 
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#video {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+#video,
+#gallery {
+    flex: 1; 
+}
+
+#video {
+    margin-right: 20px; 
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: flex-end; 
+}
+
+.image-gallery img {
+    max-width: 150px; 
+    height: auto;
+    margin-top: 10px; 
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-gallery img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+.txt2{
+    text-align: center;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
